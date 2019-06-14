@@ -14,6 +14,6 @@ public class RuleEngineHealthIndicator extends AbstractHealthIndicator {
         
         builder.up()
                 .withDetail("info", "Alive and Kicking")
-                .withDetail("error", "Nothing! I'm good.");
+                .withDetail("comments", "Nothing! I'm good ok");
     }
 }
